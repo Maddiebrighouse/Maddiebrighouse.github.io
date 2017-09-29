@@ -28,3 +28,6 @@ h2 {
   src: url('https://madeleinebrighouse.github.io/font/exprted-fonts/expos/expos.suit');
   font-weight:400;
 }
+ul.list {
+    list-style-type: circle;
+}
