@@ -1,10 +1,29 @@
+
 body{
-  background:#DF6B41;
-  font-family: Arial Black, sans-serif;
+background-image:
+url('https://maddiebrighouse.github.io/images/flower.JPG');
+background-color: orange;
+  font-family: Expos;
   font-style: normal;
   font-weight: 400;
   color: #DA5792;
 }
+
 a{
   color: #DA5792;
+font-size: 20px;
+}
+.flowers {
+position: relative;
+
+}
+h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+@font-face {
+  font-family: "Expos";
+  src: url('Expos.suit');
 }
