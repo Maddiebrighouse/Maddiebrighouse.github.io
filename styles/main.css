@@ -8,11 +8,15 @@ background-size: cover;
   font-style: normal;
   font-weight: 400;
   color: #ffa500;
+  text-align: center;
+  font-size: x-large;
+  text-shadow: 2px 2px #ff00d4;
 }
 
 a{
   color: #ffa500;
 font-size: 20px;
+text-decoration: none;
 }
 .flowers {
 position: relative;
@@ -22,6 +26,7 @@ h2 {
    top: 200px;
    left: 0;
    width: 100%;
+   
 }
 @font-face {
   font-family: "Expos";
@@ -30,4 +35,10 @@ h2 {
 }
 ul.list {
     list-style-type: circle;
+}
+
+.p{
+text-shadow: 1px 1px #ff00d4;
+padding-left: 300px;
+padding-right: 300px;
 }
