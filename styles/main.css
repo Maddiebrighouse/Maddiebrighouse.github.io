@@ -1,15 +1,22 @@
 .about {
   text-align: center;
   display: block;
-  background-color:rgb(255, 152, 247);
+  background-color:rgba(255, 152, 247,0.44);
   opacity: 1;
   height: 100vh;
   text-align: center;
 }
-h1,h2{
+h1{
   text-align: center;
   font-family: 'Germania One', cursive;
-  opacity: 100;
+  color: orange;
+  text-shadow: 2px 2px #ff00cc
+}
+h2{
+  text-align: center;
+  font-family: 'Germania One', cursive;
+  color: #ff00cc;
+  text-shadow: 2px 2px orange;
 }
 p{
   font-family: 'Kavivanar', cursive;
@@ -22,6 +29,10 @@ a {
   text-decoration-line: none;
 
 }
-*{
-  background-image: url(https://maddiebrighouse.github.io/image/flower.jpg);
+html {
+  background: url("https://maddiebrighouse.github.io/images/flower.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
