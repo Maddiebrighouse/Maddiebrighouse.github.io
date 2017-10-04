@@ -1,5 +1,9 @@
 h1{
   text-align: center;
+  font-family: 'Germania One', cursive;
+}
+p{
+  font-family: 'Kavivanar', cursive;
 }
 .topnav{
   text-align: center;
