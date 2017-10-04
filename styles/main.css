@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+.topnav{
+  text-align: center;
+  text-decoration-line: none;
+
+}
+
+.about {
+  text-align: center;
+  display: block;
+  background-color:rgb(255, 152, 247);
+  opacity: 0.14;
+}
+body{
+  background-image: url(https://maddiebrighouse.github.io/image/flower.jpg);
+}
