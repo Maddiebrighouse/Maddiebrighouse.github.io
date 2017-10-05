@@ -9,10 +9,11 @@
 h1{
   text-align: center;
   font-family: 'Germania One', cursive;
+  font-size: 5em;
   color: orange;
   text-shadow: 2px 2px #ff00cc
 }
-h2{
+h2, h3{
   text-align: center;
   font-family: 'Germania One', cursive;
   color: #ff00cc;
@@ -20,6 +21,7 @@ h2{
 }
 p{
   font-family: 'Kavivanar', cursive;
+  text-decoration-line: none;
 }
 a {
   font-family: 'Kavivanar', cursive;
