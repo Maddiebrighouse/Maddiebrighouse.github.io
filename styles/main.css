@@ -38,3 +38,23 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+button {
+font-family: 'Germania One', cursive;
+color: #ffa500;
+font-size: 18px;
+font-weight: 600;
+background-color: rgba(255, 0, 204, 0.15);
+border-radius: 4px;
+border: 2px solid #ffa500;
+box-sizing: border-box;
+box-shadow: 1px 1px 1px #ff00cc;
+text-shadow: 1px 1px #ff00cc;
+transition-duration: 0.4s;
+}
+
+.button:hover {
+color: #ffa500;
+border-color: #ff00cc;
+outline: 0;
+}
