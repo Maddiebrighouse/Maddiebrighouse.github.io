@@ -1,12 +1,21 @@
-.about {
-  text-align: center;
-  display: block;
-  background-color:rgba(255, 152, 247,0.44);
-  opacity: 1;
-  height: 100vh;
-  text-align: center;
+body {
+  background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;
+  background-size: cover;
 }
-h1{
+
+.blur {
+  background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;
+  background-size: cover;
+  /*overflow: hidden;*/
+  filter: blur(7px);
+  /*position: absolute;*/
+  height: 300px;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: 200vh;
+}*
+  h1{
   text-align: center;
   font-family: 'Germania One', cursive;
   font-size: 5em;
@@ -22,23 +31,29 @@ h2, h3{
 p{
   font-family: 'Kavivanar', cursive;
   text-decoration-line: none;
+  text-align: center;
 }
 a {
   font-family: 'Kavivanar', cursive;
+  color: #ffa500;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff00cc;
+  text-shadow: 1px 1px #ffa500;
 }
 .topnav{
   text-align: center;
   text-decoration-line: none;
 
 }
-html {
+/*html {
   background: url("https://maddiebrighouse.github.io/images/flower.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
+}*/
 button {
 font-family: 'Germania One', cursive;
 color: #ffa500;
@@ -58,3 +73,74 @@ color: #ffa500;
 border-color: #ff00cc;
 outline: 0;
 }
+
+/*.translucent {
+  text-align: center;
+  display: block;
+  background-color:rgba(255, 152, 247,0.44);
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  }*/
+  .social {
+      padding: 20px;
+      margin: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      color: orange;
+      text-shadow: 1px 1px #ff00cc;
+      display: inline;
+      flex-wrap: wrap;
+      position: sticky;
+  }
+  .widget {
+    border-top: 2px solid rgba(255, 255, 255, .5);
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+
+
+
+
+
+  /*  NOT REQUIRED  */
+
+  .text {
+    height: 200px;
+    width: 340px;
+  }
+
+  .text h1 {
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, .1);
+    color: #ffffff;
+    margin-top: 57px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 38px;
+  }
+
+  .text p {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px rgba(0, 0, 0, .1);
+    margin-top: 0px;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
