@@ -49,10 +49,10 @@ body {
   text-shadow: 2px 2px #ff00cc
 }
 
-.text p {
+p {
   text-align: center;
-  color: #ffffff;
-  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  color: orange;
+  text-shadow: 1px 1px #ff00cc;
   margin-top: 0px;
   font-family: 'Kavivanar', cursive;
   font-weight: 400;
@@ -129,4 +129,11 @@ transition-duration: 0.4s;
       display: inline;
       flex-wrap: wrap;
       position: sticky;
+  }
+  li {
+    text-align: center;
+    font-family: 'Germania One', cursive;
+    font-size: 2em;
+    color: orange;
+    text-shadow: 2px 2px #ff00cc
   }
