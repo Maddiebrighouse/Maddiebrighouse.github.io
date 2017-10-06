@@ -14,7 +14,50 @@ body {
   left: -50px;
   right: -50px;
   bottom: 200vh;
-}*
+}
+.widget {
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*  NOT REQUIRED  */
+
+.text {
+  height: 200px;
+  width: 340px;
+}
+
+.text h1 {
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  color: orange;
+  margin-top: 57px;
+  font-family: 'Germania One', cursive;
+  font-size: 6em;
+  text-shadow: 2px 2px #ff00cc
+}
+
+.text p {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  margin-top: 0px;
+  font-family: 'Kavivanar', cursive;
+  font-weight: 400;
+  font-size: 22px;
+}
   h1{
   text-align: center;
   font-family: 'Germania One', cursive;
@@ -28,15 +71,15 @@ h2, h3{
   color: #ff00cc;
   text-shadow: 2px 2px orange;
 }
-p{
-  font-family: 'Kavivanar', cursive;
-  text-decoration-line: none;
-  text-align: center;
-}
 a {
   font-family: 'Kavivanar', cursive;
   color: #ffa500;
   text-decoration: none;
+  font-size: xx-large;
+  padding-left: 15px;
+  border-left-width: 15px;
+  margin-left: 15px;
+
 }
 a:hover {
   color: #ff00cc;
@@ -54,7 +97,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
 }*/
-button {
+.button {
 font-family: 'Germania One', cursive;
 color: #ffa500;
 font-size: 18px;
@@ -69,19 +112,11 @@ transition-duration: 0.4s;
 }
 
 .button:hover {
-color: #ffa500;
-border-color: #ff00cc;
-outline: 0;
+  color: #ff00cc;
+  text-shadow: 1px 1px #ffa500;
+  box-shadow: 1px 1px 1px #ffa500;
+  border: 2px solid #ff00cc;
 }
-
-/*.translucent {
-  text-align: center;
-  display: block;
-  background-color:rgba(255, 152, 247,0.44);
-  height: 100vh;
-  overflow: hidden;
-  text-align: center;
-  }*/
   .social {
       padding: 20px;
       margin: 20px;
@@ -94,53 +129,4 @@ outline: 0;
       display: inline;
       flex-wrap: wrap;
       position: sticky;
-  }
-  .widget {
-    border-top: 2px solid rgba(255, 255, 255, .5);
-    border-bottom: 2px solid rgba(255, 255, 255, .5);
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .center {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-
-
-
-
-
-
-  /*  NOT REQUIRED  */
-
-  .text {
-    height: 200px;
-    width: 340px;
-  }
-
-  .text h1 {
-    text-align: center;
-    text-shadow: 1px 1px rgba(0, 0, 0, .1);
-    color: #ffffff;
-    margin-top: 57px;
-    font-family: 'Lora', serif;
-    font-weight: 700;
-    font-size: 38px;
-  }
-
-  .text p {
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 1px 1px rgba(0, 0, 0, .1);
-    margin-top: 0px;
-    font-family: 'Lato', serif;
-    font-weight: 400;
-    font-size: 22px;
   }
