@@ -78,12 +78,12 @@ a {
   font-family: 'Kavivanar', cursive;
   color: #ffa500;
   text-decoration: none;
-  font-size: xx-large;
+  font-size:  -webkit-xxx-large;
   padding-left: 15px;
   border-left-width: 15px;
   margin-left: 15px;
   text-shadow: 1px 1px #ff00cc;
-
+position: center;
 }
 a:hover {
   color: #ff00cc;
@@ -141,3 +141,33 @@ transition-duration: 0.4s;
     color: orange;
     text-shadow: 2px 2px #ff00cc
   }
+  img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+time{
+  color: orange;
+  text-shadow: 1px 1px #ff00cc;
+  margin-top: 0px;
+  font-family: 'Kavivanar', cursive;
+  font-weight: 400;
+  font-size: 22px;
+  padding-left: 10px;
+  float: right;
+}
+/*div{
+    border-style: solid;
+    border-width: 5px;
+color: green;
+}*/
+.border {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  color: orange;
+  box-shadow: 2px 2px #ff00cc
+}
+.index {
+}
