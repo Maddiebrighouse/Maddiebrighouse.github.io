@@ -1,42 +1,45 @@
 body {
-  background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;
-  background-size: cover;
+background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;
+background-size: cover;
 }
 
 .blur {
-  background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;
-  background-size: cover;
-  /*overflow: hidden;*/
-  filter: blur(7px);
-  /*position: absolute;*/
-  height: 300px;
-  top: -50px;
-  left: -50px;
-  right: -50px;
-  bottom: 200vh;
+/*background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;*/
+background-size: cover;
+overflow: hidden;
+filter: blur(17px);
+position: absolute;
+height: 3000px;
+top: 60px;
+left: -50px;
+right: -50px;
+bottom: -50px;
+display: block;
 }
-.widget {
-  border-top: 2px solid rgba(255, 255, 255, .5);
-  border-bottom: 2px solid rgba(255, 255, 255, .5);
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
 
+.widget {
+border-top: 2px solid rgba(255, 255, 255, .5);
+border-bottom: 2px solid rgba(255, 255, 255, .5);
+height: 3000px;
+width: 100%;
+overflow: hidden;
+display: block;
 }
 
 .center {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+position: absolute;
+margin: auto;
+top: 0;
+bottom:0;
+left: 0;
+right: 0;
 }
 /*  NOT REQUIRED  */
 
 .text {
   height: 200px;
   width: 340px;
+  top: 50px;
 }
 
 .text h1 {
@@ -79,6 +82,7 @@ a {
   padding-left: 15px;
   border-left-width: 15px;
   margin-left: 15px;
+  text-shadow: 1px 1px #ff00cc;
 
 }
 a:hover {
