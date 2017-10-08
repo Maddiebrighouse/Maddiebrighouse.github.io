@@ -121,18 +121,18 @@ transition-duration: 0.4s;
   box-shadow: 1px 1px 1px #ffa500;
   border: 2px solid #ff00cc;
 }
-  .social {
-      padding: 20px;
-      margin: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      color: orange;
-      text-shadow: 1px 1px #ff00cc;
-      display: inline;
-      flex-wrap: wrap;
-      position: sticky;
+.social {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+    text-shadow: 1px 1px #ff00cc;
+    display: inline;
+    flex-wrap: wrap;
+    position: sticky;
   }
   li {
     text-align: center;
