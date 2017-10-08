@@ -1,47 +1,12 @@
 body {
-background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;
-background-size: cover;
+  background: url('https://Maddiebrighouse.github.io/images/flower-blur.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
-
-.blur {
-/*background: url('https://maddiebrighouse.github.io/images/flower.JPG') no-repeat center center fixed;*/
-background-size: cover;
-overflow: hidden;
-filter: blur(17px);
-position: absolute;
-height: 3000px;
-top: 60px;
-left: -50px;
-right: -50px;
-bottom: -50px;
-display: block;
-}
-
-.widget {
-border-top: 2px solid rgba(255, 255, 255, .5);
-border-bottom: 2px solid rgba(255, 255, 255, .5);
-height: 3000px;
-width: 100%;
-overflow: hidden;
-display: block;
-}
-
-.center {
-position: absolute;
-margin: auto;
-top: 0;
-bottom:0;
-left: 0;
-right: 0;
-}
-/*  NOT REQUIRED  */
-
 .text {
   height: 200px;
   width: 340px;
   top: 50px;
 }
-
 .text h1 {
   text-align: center;
   text-shadow: 1px 1px rgba(0, 0, 0, .1);
@@ -51,7 +16,6 @@ right: 0;
   font-size: 6em;
   text-shadow: 2px 2px #ff00cc
 }
-
 p {
   text-align: center;
   color: orange;
@@ -61,7 +25,7 @@ p {
   font-weight: 400;
   font-size: 22px;
 }
-  h1{
+h1{
   text-align: center;
   font-family: 'Germania One', cursive;
   font-size: 5em;
@@ -83,7 +47,7 @@ a {
   border-left-width: 15px;
   margin-left: 15px;
   text-shadow: 1px 1px #ff00cc;
-position: center;
+  position: center;
 }
 a:hover {
   color: #ff00cc;
@@ -94,25 +58,19 @@ a:hover {
   text-decoration-line: none;
 
 }
-/*html {
-  background: url("https://maddiebrighouse.github.io/images/flower.JPG") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
+
 .button {
-font-family: 'Germania One', cursive;
-color: #ffa500;
-font-size: 18px;
-font-weight: 600;
-background-color: rgba(255, 0, 204, 0.15);
-border-radius: 4px;
-border: 2px solid #ffa500;
-box-sizing: border-box;
-box-shadow: 1px 1px 1px #ff00cc;
-text-shadow: 1px 1px #ff00cc;
-transition-duration: 0.4s;
+  font-family: 'Germania One', cursive;
+  color: #ffa500;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgba(255, 0, 204, 0.15);
+  border-radius: 4px;
+  border: 2px solid #ffa500;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px #ff00cc;
+  text-shadow: 1px 1px #ff00cc;
+  transition-duration: 0.4s;
 }
 
 .button:hover {
@@ -122,28 +80,28 @@ transition-duration: 0.4s;
   border: 2px solid #ff00cc;
 }
 .social {
-    padding: 20px;
-    margin: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: orange;
-    text-shadow: 1px 1px #ff00cc;
-    display: inline;
-    flex-wrap: wrap;
-    position: sticky;
-  }
-  li {
-    text-align: center;
-    font-family: 'Germania One', cursive;
-    font-size: 2em;
-    color: orange;
-    text-shadow: 2px 2px #ff00cc
-  }
-  img {
-    float: left;
-    margin: 0 0 10px 10px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: orange;
+  text-shadow: 1px 1px #ff00cc;
+  display: inline;
+  flex-wrap: wrap;
+  position: sticky;
+}
+li {
+  text-align: center;
+  font-family: 'Germania One', cursive;
+  font-size: 2em;
+  color: orange;
+  text-shadow: 2px 2px #ff00cc
+}
+img {
+  float: left;
+  margin: 0 0 10px 10px;
 }
 time{
   color: orange;
@@ -155,11 +113,6 @@ time{
   padding-left: 10px;
   float: right;
 }
-/*div{
-    border-style: solid;
-    border-width: 5px;
-color: green;
-}*/
 .border {
   width: 70%;
   margin: 0 auto;
@@ -168,6 +121,4 @@ color: green;
   border-width: 2px;
   color: orange;
   box-shadow: 2px 2px #ff00cc
-}
-.index {
 }
