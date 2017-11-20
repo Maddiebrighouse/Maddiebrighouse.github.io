@@ -7,7 +7,7 @@ body {
   width: 340px;
   top: 50px;
 }
-.text h1 {
+.text h1{
   text-align: center;
   text-shadow: 1px 1px rgba(0, 0, 0, .1);
   color: orange;
@@ -59,7 +59,7 @@ a:hover {
 
 }
 
-.button {
+.button,#twitter, #ajaxButton{
   font-family: 'Germania One', cursive;
   color: #ffa500;
   font-size: 18px;
@@ -131,3 +131,18 @@ background-color: rgba(255, 255, 255, 0.31);
 box-shadow: 1px 2px 20px 20px rgba(255, 255, 255, 0.31);
 
 }
+div#maori, div#english, div#refreashTwitter {
+  text-align: center;
+  color: orange;
+  text-shadow: 1px 1px #ff00cc;
+  margin-top: 0px;
+  font-family: 'Kavivanar', cursive;
+  font-weight: 400;
+  font-size: 22px;
+}
+.maoriProverbs {
+  text-align: center;
+  height: 200px;
+  top: 50px;
+  width: 50%;
+  margin: 0 auto;
