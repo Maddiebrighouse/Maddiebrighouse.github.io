@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="calculator.css">
+  <meta charset="utf-8">
+  <title>calculator</title>
+  <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+  <div class="calcultorbody">
+    <!--Display-->
+    <div class="output">
+      <div id="entry"></div>
+      <div id="equation"></div>
+    </div>
+    <!--Button Section -->
+    <div class="buttonSection">
+      <button id="C"value="C"onclick="erase()">C</button>
+      <button id="CE"value="CE"onclick="eraseLatestEntry()">CE</button>
+      <button id="button"value="/100"onclick="buttInput()">%</button>
+      <button id="button"value="/"onclick="buttInput('/')">%</button>
+      <br>
+      <button id="button"value="7"onclick="buttInput(7)">7</button>
+      <button id="button"value="8"onclick="buttInput(8)">8</button>
+      <button id="button"value="9"onclick="buttInput(9)">9</button>
+      <button id="button"value="*"onclick="buttInput('*')">X</button>
+      <br>
+      <button id="button"value="4"onclick="buttInput(4)">4</button>
+      <button id="button"value="5"onclick="buttInput(5)">5</button>
+      <button id="button"value="6"onclick="buttInput(6)">6</button>
+      <button id="button"value="-"onclick="buttInput('-')">-</button>
+      <br>
+      <button id="button"value="1"onclick="buttInput(1)">1</button>
+      <button id="button"value="2"onclick="buttInput(2)">2</button>
+      <button id="equals"value="3"onclick="buttInput(3)">3</button>
+      <button id="button"value="+"onclick="buttInput('+')">+</button>
+      <br>
+      <button id="button"class="zeroButton"value="0"onclick="buttInput(0)">0</button>
+      <button id="button"value="."onclick="addDecimal('.')">.</button>
+      <button id="button"class="equalButton"value="="onclick="execute()">=</button>
+    </div>
+  </div>
+</body>
+</html>
